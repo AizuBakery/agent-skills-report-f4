@@ -1,0 +1,16 @@
+{
+  "name": "wechat",
+  "version": "3.0.0",
+  "description": "通过键盘模拟+截图OCR控制微信。发送消息、读取聊天记录。",
+  "author": "dandan",
+  "tags": ["messaging", "wechat", "communication"],
+  "trigger": "使用此技能当用户需要：发送微信消息、读取微信聊天记录、或与微信好友互动。",
+  "requirements": {
+    "platform": "darwin",
+    "dependencies": [
+      "WeChat for Mac 4.x",
+      "BiboyQG/WeChat-MCP (已安装在 ~/wechat-integration/wechat-mcp-venv/)",
+      "iTerm2 辅助功能权限"
+    ]
+  }
+}

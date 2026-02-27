@@ -1,0 +1,17 @@
+{
+  "name": "wechat-bridge",
+  "version": "1.0.0",
+  "description": "微信消息轮询桥接器。定时读取指定微信聊天中的指令消息，转发给OpenClaw agent自动执行。",
+  "author": "dandan",
+  "tags": ["wechat", "bridge", "automation", "polling"],
+  "trigger": "使用此技能当用户需要：启动微信消息监听、让OpenClaw监听微信指令、通过微信控制OpenClaw。",
+  "requirements": {
+    "platform": "darwin",
+    "dependencies": [
+      "WeChat for Mac 4.x",
+      "BiboyQG/WeChat-MCP (已安装在 ~/wechat-integration/wechat-mcp-venv/)",
+      "iTerm2 辅助功能权限",
+      "OpenClaw CLI"
+    ]
+  }
+}
