@@ -1,6 +1,5 @@
 # 技术报告：从 Agent 到 Skills — AI 智能体架构的范式转变
 
-> **报告日期**：2026-02-25
 > **关键词**：Agent Skills, MCP, OpenClaw, A2A, Agentic AI, 模块化架构
 
 ---
