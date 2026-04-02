@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Auto Twitter Campaign — image editing pipeline + AI tweet content generator.
-Uses Ming-flash-omni-2.0 (Zenmux) for vision/editing and tweet text generation.
+Uses Gemini 3.1 (Zenmux) for vision/editing and tweet text generation.
 """
 
 import argparse
@@ -179,7 +179,7 @@ def generate_tweet_text(results_dir, description=None, compare_files=None):
     prompt += (
         f"This showcase has {num_scenes} scene(s) with {num_images} comparison image(s).\n"
         "The image shows: Left = original raw photo, Right = AI-edited version.\n"
-        "The AI model used is Ming-flash-omni-2.0.\n\n"
+        "The AI model used is Gemini 3.1.\n\n"
         "Follow this exact format (each line starts with an emoji, NO markdown, NO bold, NO headers):\n\n"
         "📍 [Location name in English (中文)] — [brief cultural context]\n"
         "📅 [Occasion or season if relevant]\n"
