@@ -12,6 +12,8 @@ import sys
 from collections import defaultdict
 from pathlib import Path
 
+
+
 try:
     from PIL import Image
 except ImportError:
