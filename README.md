@@ -5,13 +5,19 @@
 ```
 skills/
 ├── auto-twitter-campaign/     ← Core project: AI image processing + tweet generation
-│   ├── SKILL.md               ← Skill metadata + instructions (3-layer progressive disclosure)
+│   ├── SKILL.md               ← Skill metadata + instructions (3-layer progressive process)
 │   └── scripts/
-│       ├── campaign.py        ← Orchestrator (thin layer)
-│       └── batch_compare.py   ← Image pipeline (Director-Creator-Critic pattern)
+│       ├── campaign.py        ← Orchestrator
+│       └── batch_compare.py   ← Image pipeline ()
 │
 ├──
 ...
+~/openclaw/skills/                      
+├── filesystem/                           ← 教 Agent 怎么用 Filesystem MCP
+│   ├── skill.json
+│   └── prompt.md
+└── xhs/                               ← 教 Agent 怎么联小红书
+
 ```
 
 
@@ -30,4 +36,4 @@ MIT
 
 ## Credit
 
-Forge450, for internal demo
+Forge450, for internal demo usage in Japan
