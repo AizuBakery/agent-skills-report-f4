@@ -25,6 +25,7 @@ def get_client():
         http_options=types.HttpOptions(api_version='v1', base_url='https://zenmux.ai/api/vertex-ai')
     )
 
+# original one, may bypass
 
 MAX_DIM = 2048
 MAX_BYTES = 2 * 1024 * 1024  # 2MB
