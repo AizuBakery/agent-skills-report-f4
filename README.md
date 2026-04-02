@@ -24,10 +24,7 @@ skills/
 ## Requirements
 
 - Python 3.10+
-- `google-genai` SDK
-- `Pillow` for image processing
-- `ZENMUX_API_KEY` environment variable (for Ming-flash-omni-2.0 API)
-- OpenClaw (optional, for Agent-based execution)
+- Kimi/Claude plan with agent support 
 
 ## License
 
