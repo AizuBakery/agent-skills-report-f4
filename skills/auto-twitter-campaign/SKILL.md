@@ -24,7 +24,7 @@ python3 {baseDir}/scripts/campaign.py showcase
 python3 {baseDir}/scripts/campaign.py process --image /path/to/photo.jpg
 
 # Provide a scene description for better tweet text (otherwise AI auto-describes)
-python3 {baseDir}/scripts/campaign.py showcase --description "大年初一华山，下棋亭、西峰和南峰"
+python3 {baseDir}/scripts/campaign.py showcase --description "xxxxx"
 ```
 
 ## Requirements
