@@ -1,12 +1,5 @@
 # From Agent to Skills: A Paradigm Shift in AI Agent Architecture
 
-> 技术报告：从 Agent 到 Skills — AI 智能体架构的范式转变
-
-This repository contains the companion code and technical report for understanding the paradigm shift from monolithic AI Agents to composable Skills + MCP + A2A architecture.
-
-## What's Inside
-
-
 ### Skills (Working Code)
 
 ```
@@ -17,32 +10,10 @@ skills/
 │       ├── campaign.py        ← Orchestrator (thin layer)
 │       └── batch_compare.py   ← Image pipeline (Director-Creator-Critic pattern)
 │
-├── wechat/                    ← WeChat keyboard automation skill
-│   ├── skill.json + prompt.md
-│   └── scripts/               ← Shell wrappers for send/read
-│
-└── wechat-bridge/             ← WeChat ↔ OpenClaw bridge
-    ├── skill.json + prompt.md
-    └── scripts/
-        ├── demo_case1.py      ← Claude Code approach (deterministic script)
-        ├── bridge_openclaw.py ← OpenClaw approach (thin IO adapter + Agent reasoning)
-        └── bridge.py          ← Original version (superseded)
+├──
+...
 ```
 
-## Key Architecture
-
-```
-┌─────────────────────────────────────────────────────┐
-│                  2026 Agentic AI Stack               │
-│                                                     │
-│  Application:  OpenClaw / Claude Code / Cursor       │
-│  Knowledge:    Skills (teach HOW to do things)       │
-│  Reasoning:    Agent (decide WHAT to do)             │
-│  Tools:        MCP (connect to external services)    │
-│  Collaboration: A2A (Agent-to-Agent delegation)      │
-│  Foundation:   LLM API / Local models                │
-└─────────────────────────────────────────────────────┘
-```
 
 ## Requirements
 
