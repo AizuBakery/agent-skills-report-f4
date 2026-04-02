@@ -6,13 +6,6 @@ This repository contains the companion code and technical report for understandi
 
 ## What's Inside
 
-### Technical Report
-
-- [`技术报告_从Agent到Skills的范式转变.md`](技术报告_从Agent到Skills的范式转变.md) — Full technical report (Chinese), covering:
-  - Why Skills replace monolithic Agents
-  - Core concepts: Agent, Skills, MCP, OpenClaw, A2A
-  - Real-world project walkthrough
-  - Experiment: Claude Code vs OpenClaw side-by-side comparison
 
 ### Skills (Working Code)
 
